@@ -6,7 +6,7 @@ body {
 #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin:  15% 5%;
   color: #FEF2BF;
 }
 
@@ -28,6 +28,31 @@ body {
   width: 200px;
   border: 10px solid black;
   border-radius: 20%;
+}
+
+.playBtn {
+  font-family: 'Press Start 2P', cursive;
+  line-height: 1.5;
+  cursor: pointer;
+  vertical-align: middle;
+  margin: 8% 5% 12%;
+  color: #ffffff;
+  width: 200px;
+  height: 100px;
+  background: #777777;
+  top: 100px;
+  padding: 16px;
+  font-size: 30px;
+  border-radius: 10px;
+  box-shadow: 0 12px 0 0 #585757, 0 0 17px 0 #4e4b4b;
+  transition: all 0.2s;
+  border: none;
+}
+
+
+.playBtn:active {
+  top: 108px;
+  box-shadow: 0 7px 0 0 #777777;
 }
 
 .game-over {

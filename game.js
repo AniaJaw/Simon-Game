@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 
   // Call next sequence function
-  $(document).keydown(function() {
+  $(".playBtn").click(function() {
 
     if (started === false) {
       nextSequence();
